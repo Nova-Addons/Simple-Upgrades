@@ -1,0 +1,7 @@
+{
+  "menu.simple_upgrades.upgrades.type.speed": "Geschwindigkeits-Upgrades: %s/%s",
+  "menu.simple_upgrades.upgrades.type.efficiency": "Effizienz-Upgrades: %s/%s",
+  "menu.simple_upgrades.upgrades.type.energy": "Energie-Upgrades: %s/%s",
+  "menu.simple_upgrades.upgrades.type.range": "Reichweite-Upgrades: %s/%s",
+  "menu.simple_upgrades.upgrades.type.fluid": "Flüssigkeits-Upgrades: %s/%s"
+}

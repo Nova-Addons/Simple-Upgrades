@@ -1,0 +1,7 @@
+{
+  "menu.simple_upgrades.upgrades.type.speed": "Vylepšení Rychlosti: %s/%s",
+  "menu.simple_upgrades.upgrades.type.efficiency": "Vylepšení Účinnosti: %s/%s",
+  "menu.simple_upgrades.upgrades.type.energy": "Energetické Vylepšení %s/%s",
+  "menu.simple_upgrades.upgrades.type.range": "Dosahové Vylepšení: %s/%s",
+  "menu.simple_upgrades.upgrades.type.fluid": "Kapalinné Vylepšení: %s/%s"
+}

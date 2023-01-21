@@ -1,0 +1,7 @@
+{
+  "menu.simple_upgrades.upgrades.type.speed": "Улучшение: Скорость: %s/%s",
+  "menu.simple_upgrades.upgrades.type.efficiency": "Улучшение: Эффективность: %s/%s",
+  "menu.simple_upgrades.upgrades.type.energy": "Улучшение: Энергия: %s/%s",
+  "menu.simple_upgrades.upgrades.type.range": "Улучшение: Радиус: %s/%s",
+  "menu.simple_upgrades.upgrades.type.fluid": "Улучшение Объём: %s/%s"
+}

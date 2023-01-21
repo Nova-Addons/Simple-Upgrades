@@ -1,0 +1,7 @@
+{
+  "menu.simple_upgrades.upgrades.type.speed": "Обнова швидкісті: %s/%s",
+  "menu.simple_upgrades.upgrades.type.efficiency": "Обнова ефективності: %s/%s",
+  "menu.simple_upgrades.upgrades.type.energy": "Обнова енергій: %s/%s",
+  "menu.simple_upgrades.upgrades.type.range": "Обнова дальності: %s/%s",
+  "menu.simple_upgrades.upgrades.type.fluid": "Обнова рідини: %s/%s"
+}

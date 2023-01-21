@@ -1,0 +1,7 @@
+{
+  "menu.simple_upgrades.upgrades.type.speed": "速度升级等级: %s/%s",
+  "menu.simple_upgrades.upgrades.type.efficiency": "效率升级等级: %s/%s",
+  "menu.simple_upgrades.upgrades.type.energy": "能量升级等级: %s/%s",
+  "menu.simple_upgrades.upgrades.type.range": "范围升级等级: %s/%s",
+  "menu.simple_upgrades.upgrades.type.fluid": "液体升级: %s/%s"
+}
