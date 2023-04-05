@@ -12,6 +12,7 @@ import xyz.xenondevs.nova.tileentity.network.fluid.FluidType
 import xyz.xenondevs.nova.tileentity.upgrade.UpgradeHolder
 import xyz.xenondevs.nova.tileentity.upgrade.UpgradeType
 import xyz.xenondevs.simpleupgrades.registry.UpgradeTypes
+import java.io.File
 import java.util.*
 
 fun ConsumerEnergyHolder(
