@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "xyz.xenondevs"
-version = "1.0-SNAPSHOT"
+version = "1.0-RC"
 
 val mojangMapped = project.hasProperty("mojang-mapped") || System.getProperty("mojang-mapped") != null
 
