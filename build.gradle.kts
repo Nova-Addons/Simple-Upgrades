@@ -60,7 +60,7 @@ tasks {
                 ?: System.getProperty("outDir")?.let(::File)
                 ?: project.buildDir
         )
-        rename { it.replace(project.name, addon.get().addonName.get()) }
+        rename { it.replace(project.name, addon.get().addonName.get().replace(" ", "-")) }
     }
     
     register<Jar>("sources") {
