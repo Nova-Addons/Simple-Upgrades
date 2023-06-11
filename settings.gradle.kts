@@ -3,19 +3,37 @@ rootProject.name = "simple-upgrades"
 dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
-            version("nova", "0.13")
-            version("spigot", "1.19.4-R0.1-SNAPSHOT")
+            version("nova", "0.14-alpha.1")
+            version("spigot", "1.20-R0.1-SNAPSHOT")
+            version("kotlin", "1.8.20")
+            
+            plugin("kotlin", "org.jetbrains.kotlin.jvm").versionRef("kotlin")
+            plugin("nova", "xyz.xenondevs.nova.nova-gradle-plugin").versionRef("nova")
+            plugin("stringremapper", "xyz.xenondevs.string-remapper-gradle-plugin").version("1.3")
+            plugin("specialsource", "xyz.xenondevs.specialsource-gradle-plugin").version("1.1")
             
             library("nova", "xyz.xenondevs.nova", "nova").versionRef("nova")
-            library("spigot", "org.spigotmc", "spigot").versionRef("spigot")
         }
     }
 }
 
 pluginManagement {
     repositories {
+        mavenLocal()
         mavenCentral()
+        gradlePluginPortal()
         maven("https://repo.xenondevs.xyz/releases")
-        mavenLocal { content { includeGroup("org.spigotmc") } }
+        maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/") // for nova-gradle-plugin
+    }
+}
+
+plugins {
+    id("com.gradle.enterprise") version "3.13"
+}
+
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
     }
 }

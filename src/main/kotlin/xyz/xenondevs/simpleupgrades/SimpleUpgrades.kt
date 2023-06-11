@@ -1,5 +1,10 @@
 package xyz.xenondevs.simpleupgrades
 
 import xyz.xenondevs.nova.addon.Addon
+import xyz.xenondevs.nova.update.ProjectDistributor
 
-object SimpleUpgrades : Addon()
+object SimpleUpgrades : Addon() {
+    
+    override val projectDistributors = listOf(ProjectDistributor.hangar("xenondevs/Simple-Upgrades"))
+    
+}
